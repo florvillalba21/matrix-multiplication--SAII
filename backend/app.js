@@ -12,7 +12,8 @@ server.use("/multiplicar", (req, res) => {
   
 
   const filasM1 = Matriz1.length;
-  const columnasM2 = Matriz1[0].length;
+  const filasM2 = Matriz2.length;
+  const columnasM2 = Matriz2[0].length;
   try {
 
     const resultado = new Array(filasM1).fill(0).map(() => new Array(columnasM2).fill(0));
