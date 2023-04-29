@@ -12,8 +12,6 @@ server.use("/multiplicar", (req, res) => {
   
 
   const filasM1 = Matriz1.length;
-  const columnasM1 = Matriz1[0].length;
-  const filasM2 = Matriz1.length;
   const columnasM2 = Matriz1[0].length;
   try {
 
